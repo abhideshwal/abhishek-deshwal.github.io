@@ -3,7 +3,7 @@
 {{ .Site.Params.institution }}</h1>
 <hr/>
 {{ $.Scratch.Set "currentPageTitle" .Title }}
-{{ range .Site.Menus.main }}
+
 <p class="sidebar"><a class="sidebar" href="{{ "/" | relURL }}">About</a></p>
 <p class="sidebar"><a class="sidebar" href="/research/">Research</a></p>
 	{{ if (eq "Research" ($.Scratch.Get "currentPageTitle")) }}
