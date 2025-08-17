@@ -12,3 +12,7 @@
 <p class="sidebar"><a class="sidebar" href="/teaching/">Teaching</a></p>
 <p class="sidebar"><a class="sidebar" href="/miscellaneous/">Miscellaneous</a></p>
 <p class="sidebar"><a class="sidebar" href="{{ "/#contact" | relURL }}">Contact</a></p>
+
+{{ with .Site.Params.logo }}
+<img src="{{ . | relURL }}" alt="Profile Photo" style="padding-top: 2em; padding-bottom: 1em; max-width: 100%;"/>
+{{ end }}
