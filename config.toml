@@ -1,5 +1,6 @@
 relativeURLs = true
 # googleAnalytics = "UA-159072578-1"  # Commented out - add your own later if needed
+disableGoogleAnalytics = true
 title = "Abhishek Deshwal"
 theme = "academimal"
 sectionPagesMenu = "main"
