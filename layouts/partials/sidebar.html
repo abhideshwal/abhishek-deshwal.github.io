@@ -3,6 +3,7 @@
 {{ .Site.Params.institution }}</h1>
 <hr/>
 {{ $.Scratch.Set "currentPageTitle" .Title }}
+<p class="sidebar"><a class="sidebar" href="{{ "/" | relURL }}">About</a></p>
 <p class="sidebar"><a class="sidebar" href="/research/">Research</a></p>
 	{{ if (eq "Research" ($.Scratch.Get "currentPageTitle")) }}
 	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
@@ -10,10 +11,4 @@
 	{{end}}
 <p class="sidebar"><a class="sidebar" href="/teaching/">Teaching</a></p>
 <p class="sidebar"><a class="sidebar" href="/miscellaneous/">Miscellaneous</a></p>
-<p class="sidebar"><a class="sidebar" href="mailto:{{ .Site.Params.Email }}">Contact</a></p>
-{{ with .Site.Params.LinkedIn }}
-<p class="sidebar">
-<a class="sidebar" href="https://www.linkedin.com/in/{{ . }}" target="_blank">
-LinkedIn
-</a></p>
-{{ end }}
+<p class="sidebar"><a class="sidebar" href="{{ "/#contact" | relURL }}">Contact</a></p>
