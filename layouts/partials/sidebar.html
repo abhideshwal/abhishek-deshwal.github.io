@@ -2,46 +2,18 @@
 <h1 style="font-size:18px; font-style:italic;">{{ .Site.Params.title }} <br/>
 {{ .Site.Params.institution }}</h1>
 <hr/>
-
 {{ $.Scratch.Set "currentPageTitle" .Title }}
-
 {{ range .Site.Menus.main }}
 <p class="sidebar"><a class="sidebar" href="{{ .URL | relURL }}">{{- .Name -}}</a></p>
-
 	{{ if and (eq "Research" ($.Scratch.Get "currentPageTitle")) (eq "Research" .Title) }}
 	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
-	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#Publications" | relURL }}">Publications</a></p>
-	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#PolicyPapers" | relURL }}">Book Chapters & Policy Papers</a></p>
-<!--	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorksInProgress" | relURL }}">Works in Progress</a></p> -->
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkInProgress" | relURL }}">Work in Progress</a></p>
 	{{end}}
-
 {{ end }}
-
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva/classes">Teaching</a></p>
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva/classes/ec2907-public-reading-group">Reading Group</a></p>
-<p class="sidebar"><a class="sidebar" href="http://socialeconomicslab.org/">Social Economics Lab</a></p>
-<p class="sidebar"><a class="sidebar" href="http://understandingeconomics.org/">Understanding Economics</a></p>
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva">Contact and Harvard Page</a></p>
-<p class="sidebar"><a class="sidebar" href="https://socialeconomicslab.org/about/">Join The Team</a></p>
-<p class="sidebar"><a class="sidebar" href="https://stantcheva.scholars.harvard.edu/sites/g/files/omnuum7746/files/2025-08/CV_SStantcheva_Aug2025.pdf">Bio and CV</a></p>
-<p class="sidebar"><a class="sidebar" href="https://www.dropbox.com/scl/fo/u17o5f3wl3on0fvg2taom/AJNjhrCc14mAEuY4IvrT2h0?rlkey=s543jd5zooigxkyqfxtv6rcxj&st=dp6m2a98&dl=0">High-Resolution Photos</a></p>
-
+<p class="sidebar"><a class="sidebar" href="mailto:{{ .Site.Params.Email }}">Contact</a></p>
+{{ with .Site.Params.LinkedIn }}
 <p class="sidebar">
-	<img src="{{ "/icons/twitter-white.png" | relURL }}" class="octicons">
-<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
-@{{ .Site.Params.Twitter }}
+<a class="sidebar" href="https://www.linkedin.com/in/{{ . }}" target="_blank">
+LinkedIn
 </a></p>
-
-<p class="sidebar">
-	<img src="{{ "/icons/Bluesky_Logo.svg" | relURL }}" class="octicons">
-<a class="sidebar" href="https://bsky.app/profile/s-stantcheva.bsky.social" target="_blank">
-@s-stantcheva.bsky.social
-</a></p>
-
-{{ with .Site.Params.logo }}
-{{ if (eq "Homepage" ($.Scratch.Get "currentPageTitle")) }}
-<img src="{{ . | relURL }}" alt="Logo" style="padding-bottom: 3em;"/>
-{{ else }}
-<img class="nothomepage" src="{{ . | relURL }}" alt="Logo" style="padding-bottom: 3em;"/>
-{{ end }}
 {{ end }}
