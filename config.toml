@@ -1,6 +1,5 @@
 relativeURLs = true
-# googleAnalytics = "UA-159072578-1"  # Commented out - add your own later if needed
-disableGoogleAnalytics = true
+# googleAnalytics = "UA-159072578-1"
 title = "Abhishek Deshwal"
 theme = "academimal"
 sectionPagesMenu = "main"
@@ -16,25 +15,8 @@ name = "Abhishek Deshwal"
       unsafe = true
 
 [params]
-title = "PhD Student,"
+title = "PhD Student in Sustainable Development"
 institution = "Columbia University"
-# logo = "abhishek-photo.jpg"  # Add your photo later
-# Twitter = ""  # No Twitter
-LinkedIn = "abhishek-deshwal-215535b4"
+# logo = "Stefanie_Stantcheva_headshot_signed_fil-3.jpg"
+# Twitter = "S_Stantcheva"
 Email = "ad3884@columbia.edu"
-
-# Navigation Menu
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Research"
-url = "/research/"
-weight = 2
-
-[[menu.main]]
-name = "CV"
-url = "/cv/"
-weight = 3
