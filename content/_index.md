@@ -4,36 +4,18 @@ title = "Homepage"
 
 ## Hello!
 
-I am the Nathaniel Ropes Professor of Political Economy at Harvard and founder and director of the [Social Economics Lab](http://socialeconomicslab.org/).
+Welcome! I am an economist working at the intersection of environmental and development economics using tools from empirical industrial organization. I use applied microeconomics and interdisciplinary research related to energy markets, environmental policy in developing countries and climate adaption among farmers. 
 
-I study the **taxation** of firms and individuals, as well as **how people understand, perceive, and form their attitudes** towards economic issues and policies. My recent work explores people’s attitudes towards taxation, trade, immigration, climate change, and social mobility using **large-scale Social Economics Surveys and Experiments**. 
+I am currently a PhD student at the School of International and Public Affairs (SIPA) at Columbia University. 
 
-I have also studied the long-lasting effects of tax policy – on innovation, education, and wealth. Some examples include how R&D policies can be improved to foster innovation, how income and corporate taxes have shaped innovation over the 20th century, and how student loans can be structured to improve access to education. 
+Before joining Columbia, I worked at the [Jameel Poverty Action Lab (J-PAL)](https://www.povertyactionlab.org/) for three years as Senior Research Associate.
 
-I am the recipient of the 2025 John Bates Clark Medal, awarded each year to an American economist under the age of forty who is judged to have made the most significant contribution to economic thought and knowledge, the 2020 Elaine Bennett Research Prize, a Sloan Foundation fellow, a Guggenheim fellow, and an Andrew Carnegie Fellow.
+[CV](../Abhishek_Deshwal_CV.pdf) (Updated January 2025)
 
-I received my Ph.D. in Economics from MIT in 2014 and was a junior fellow at the Harvard Society of Fellows 2014-2016 before joining the Harvard Department of Economics in July 2016. I am currently co-editor of the Quarterly Journal of Economics.
-
-[Full CV](https://stantcheva.scholars.harvard.edu/sites/g/files/omnuum7746/files/2025-08/CV_SStantcheva_Aug2025.pdf)
-
-Current [Research Statement](https://scholar.harvard.edu/sites/scholar.harvard.edu/files/stantcheva/files/ss_research_statement.pdf)
-
-To learn more about people’s understanding, perceptions, and views of public policies, visit the [Social Economics Lab website](http://socialeconomicslab.org/). 
-
-Here is an older (2021) [Research Summary](https://scholar.harvard.edu/files/stantcheva/files/econ_dynamic_2104.pdf) and a short [focus piece](https://www.nber.org/reporter/2018number3/taxation-and-innovation) about my research on “Taxation and Innovation."
-
+<div id="contact">
 
 ## Contact
 
-**Address:** 
-Department of Economics  
-Littauer Center 232  
-Harvard University  
-Cambridge, MA  02138  
+**Email:** [ad3884@columbia.edu](mailto:ad3884@columbia.edu)
 
-**Staff Support:** Ann M. Richards     
-**Email:** ann_richards@harvard.edu      
-**Tel.:** 617-496-3960  
-
-
-**Website:** This website was built using Hugo. Feel free to repurpose its code, which you can find on [GitHub](https://github.com/cschesch/stefanie-stantcheva).
+**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/abhishek-deshwal-215535b4)
