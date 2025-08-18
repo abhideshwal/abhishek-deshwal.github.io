@@ -10,7 +10,7 @@ I am currently a PhD student at the School of International and Public Affairs (
 
 Before joining Columbia, I worked at the [Jameel Poverty Action Lab (J-PAL)](https://www.povertyactionlab.org/) for three years as Senior Research Associate.
 
-[CV](../Abhishek_Deshwal_CV.pdf) (Updated January 2025)
+[CV](https://github.com/abhideshwal/abhishek-deshwal.github.io/content/Abhishek_Deshwal_CV.pdf) (Updated July 2025)
 
 <div id="contact">
 
