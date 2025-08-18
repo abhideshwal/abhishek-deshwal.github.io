@@ -15,7 +15,7 @@ name = "Abhishek Deshwal"
       unsafe = true
 
 [params]
-title = "PhD Student in Sustainable Development"
+title = "PhD Student in Sustainable Development,"
 institution = "Columbia University"
 logo = "https://github.com/abhideshwal/abhishek-deshwal.github.io/raw/master/IMG_2073.jpg"
 # Twitter = "S_Stantcheva"
