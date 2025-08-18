@@ -45,11 +45,6 @@
     {{ range .Site.Data.research }}
     {{ $.Scratch.Set "count" 0 }}
 
-   <!--
-
-BP: Remove comments when you will need to add Works in Progress again
-You should also edit side bar
-
     <h2 id="WorksInProgress">Works in Progress</h2>
     {{ with .worksinprogress }}
     {{range . }}
@@ -92,7 +87,7 @@ You should also edit side bar
     {{ end }}
     {{ end }}
     <br>
--->
+
     <h2 id="WorkingPapers">Working Papers</h2>
 
     {{ with .workingpapers }}
@@ -138,6 +133,12 @@ You should also edit side bar
     {{ end }}
     <br>
 
+
+
+<!--
+BP: Remove comments when you will need to Publications again
+You should also edit side bar
+
     <h2 id="Publications">Publications</h2>
     <!--  <div style="margin-top:-25px;"></div>  -->
     {{ with .publications }}
@@ -145,20 +146,18 @@ You should also edit side bar
     {{ $.Scratch.Add "count" 1 }} 
     {{$index:= $.Scratch.Get "count" }}
     {{ $other_text := .other_text }}
-
+ -->
 
     <!-- {{ if ne .year ($.Scratch.Get "curyear") }}<br><h3>{{ .year }}</h3>{{ $.Scratch.Set "curyear" .year}}{{ end }} -->
-
+<!--
     <p>
         <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
 
         {{ with .coauthors }}<span style="margin:5px 0px 5px 0px;">(with {{ . }}){{ end }}</span> <em>{{ .book }}, {{ .year }} </em>
         
-        <!-- {{ with .coauthors }}<p style="margin:5px 0px 5px 0px;">(with {{ . }}){{ end }} <em>{{ .book }}, {{ .year }} </em></p> -->
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
-        <!-- {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }}, {{ .year }} </em> -->
 
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
@@ -189,15 +188,12 @@ You should also edit side bar
 
 
    <h2 id="PolicyPapers">Book Chapters & Policy Papers</h2>
-   <!-- <div style="margin-top:-25px;"></div>  -->
     {{ with .policypapers }}
     {{range . }}
     {{ $.Scratch.Add "count" 1 }} 
     {{$index:= $.Scratch.Get "count" }}
     {{ $other_text := .other_text }}
 
-
-    <!-- {{ if ne .year ($.Scratch.Get "curyear") }}<br><h3>{{ .year }}</h3>{{ $.Scratch.Set "curyear" .year}}{{ end }} -->
 
     <p>
         <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
@@ -235,7 +231,7 @@ You should also edit side bar
     {{ end }}
     <br>
 
-    
+  -->  
 
     {{ end }}
 {{- end }}
