@@ -4,7 +4,7 @@
 <h2>Tango</h2>
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
   <div style="flex: 2;">
-    <p>{{ .Params.tango_text }}</p>
+    <p>{{ .Params.tango_text | safeHTML }}</p>
   </div>
   {{ if .Params.tango_image }}
   <div style="flex: 1;">
@@ -27,8 +27,8 @@
   </div>
   {{ end }}
   <div style="flex: 2;">
-    <p>{{ .Params.cooking_text }}</p>
-    <p>{{ .Params.spirituality_text }}</p>
+    <p>{{ .Params.cooking_text | safeHTML }}</p>
+    <p>{{ .Params.spirituality_text | safeHTML }}</p>
   </div>
 </div>
 
