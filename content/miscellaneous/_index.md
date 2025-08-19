@@ -9,13 +9,13 @@ menu:
 # Tango content
 tango_text: "Argentine tango has been a profound part of my life for [X years]. The dance represents more than just movement—it's about connection, listening, and being present in the moment. From the milongas of Buenos Aires to local dance communities, tango has taught me about vulnerability, partnership, and the poetry of improvised movement. The music of Piazzolla, D'Arienzo, and Pugliese continues to move me, both literally and emotionally."
 
-tango_image: "images/IMG_0413.jpg"
+tango_image: "miscellaneous/IMG_4013.JPG"
 tango_caption: "At a milonga in [location/year]"
 
 # Cooking content
 cooking_text: "Cooking serves as both creative outlet and meditation for me. I'm particularly drawn to [specific cuisines/techniques], finding joy in the precision of technique and the spontaneity of flavor combinations. Whether it's perfecting a complex sauce, exploring fermentation, or simply preparing a comforting meal for friends, the kitchen is where I find balance between science and art. Food, after all, is one of our most fundamental ways of caring for others."
 
-cooking_image: "images/retreat.jpg"
+cooking_image: "miscellaneous/retreat.JPG"
 cooking_caption: "Preparing [specific dish] in my kitchen"
 
 # Spirituality content
