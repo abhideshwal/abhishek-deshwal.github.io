@@ -2,19 +2,35 @@
 {{ .Content }}
 
 <h2>Tango</h2>
-<p>{{ .Params.tango_text }}</p>
-{{ if .Params.tango_image }}
-<img src="{{ .Params.tango_image | relURL }}" alt="Tango" style="max-width: 300px;">
-{{ end }}
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+  <div style="flex: 2;">
+    <p>{{ .Params.tango_text }}</p>
+  </div>
+  {{ if .Params.tango_image }}
+  <div style="flex: 1;">
+    <img src="{{ .Params.tango_image | relURL }}" alt="Tango" style="max-width: 100%; height: auto;">
+    {{ if .Params.tango_caption }}
+    <p style="font-size: 0.9em; color: #666; margin-top: 5px; text-align: center;">{{ .Params.tango_caption }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
 
 <h2>Cooking</h2>
-<p>{{ .Params.cooking_text }}</p>
-{{ if .Params.cooking_image }}
-<img src="{{ .Params.cooking_image | relURL }}" alt="Cooking" style="max-width: 300px;">
-{{ end }}
-
-<h2>Spirituality</h2>
-<p>{{ .Params.spirituality_text }}</p>
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+  {{ if .Params.cooking_image }}
+  <div style="flex: 1;">
+    <img src="{{ .Params.cooking_image | relURL }}" alt="Cooking" style="max-width: 100%; height: auto;">
+    {{ if .Params.cooking_caption }}
+    <p style="font-size: 0.9em; color: #666; margin-top: 5px; text-align: center;">{{ .Params.cooking_caption }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div style="flex: 2;">
+    <p>{{ .Params.cooking_text }}</p>
+    <p>{{ .Params.spirituality_text }}</p>
+  </div>
+</div>
 
 <ul>
     {{ range .Pages }}
