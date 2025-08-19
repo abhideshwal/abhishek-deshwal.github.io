@@ -9,7 +9,7 @@ menu:
 # Tango content
 tango_text: "Argentine tango has been a profound part of my life for [X years]. The dance represents more than just movement—it's about connection, listening, and being present in the moment. From the milongas of Buenos Aires to local dance communities, tango has taught me about vulnerability, partnership, and the poetry of improvised movement. The music of Piazzolla, D'Arienzo, and Pugliese continues to move me, both literally and emotionally."
 
-tango_image: "miscellaneous/IMG_4013.JPG"
+tango_image: "miscellaneous/IMG_0413.JPG"
 tango_caption: "At a milonga in [location/year]"
 
 # Cooking content
