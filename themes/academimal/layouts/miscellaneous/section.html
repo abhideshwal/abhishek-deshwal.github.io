@@ -1,22 +1,18 @@
-{{ define "main" }}
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
+{{- end }}{{ define "main" }}
+<!-- Copy the exact structure from your working pages -->
+<article class="article">
+  <div class="article-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+    <p class="article-subtitle">{{ .Params.subtitle }}</p>
+    {{ end }}
+  </div>
+  
+  <div class="article-content">
+    {{ .Content }}
       
-      <!-- Page Header -->
-      <header class="page-header">
-        <h1 class="page-title">{{ .Title }}</h1>
-        {{ if .Params.subtitle }}
-        <p class="page-subtitle">{{ .Params.subtitle }}</p>
-        {{ end }}
-      </header>
-
-      <!-- Page Content -->
-      <div class="page-content">
-        {{ .Content }}
-        
-        <!-- Custom sections for your interests -->
-        <div class="interests-section">
+      <!-- Custom sections for your interests -->
+      <div class="interests-section">');
           
           <!-- Tango Section -->
           <section class="interest-block">
@@ -66,11 +62,9 @@
             </div>
           </section>
 
-        </div>
-      </div>
     </div>
   </div>
-</div>
+</article>
 
 <style>
 .interest-block {
@@ -96,6 +90,11 @@
 .interest-image img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  max-width: 300px;
+  max-height: 250px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .interest-image img:hover {
