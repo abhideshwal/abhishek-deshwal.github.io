@@ -1,5 +1,21 @@
 {{ define "main" -}}
 {{ .Content }}
+
+<h2>Tango</h2>
+<p>{{ .Params.tango_text }}</p>
+{{ if .Params.tango_image }}
+<img src="{{ .Params.tango_image | relURL }}" alt="Tango" style="max-width: 300px;">
+{{ end }}
+
+<h2>Cooking</h2>
+<p>{{ .Params.cooking_text }}</p>
+{{ if .Params.cooking_image }}
+<img src="{{ .Params.cooking_image | relURL }}" alt="Cooking" style="max-width: 300px;">
+{{ end }}
+
+<h2>Spirituality</h2>
+<p>{{ .Params.spirituality_text }}</p>
+
 <ul>
     {{ range .Pages }}
     <li><a href="{{ .URL | relURL }}">{{ .Title }}</a>
