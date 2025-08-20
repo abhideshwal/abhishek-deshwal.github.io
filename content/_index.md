@@ -18,4 +18,4 @@ Before joining Columbia, I worked at the [Abdul Latif Jameel Poverty Action Lab 
 
 **Email:** [ad3884@columbia.edu](mailto:ad3884@columbia.edu)
 
-**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/abhishek-deshwal-215535b4)
+**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/deshwal-abhishek)
