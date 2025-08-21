@@ -10,7 +10,7 @@ My work spans several interconnected areas: examining how policy-created misallo
 
 Before joining Columbia, I worked at the [Abdul Latif Jameel Poverty Action Lab (J-PAL)](https://www.povertyactionlab.org/) for three years as Senior Research Associate. My work in energy, environment and agriculture in India shaped my current research interests, something I am very grateful for.
 
-[CV](homepage/CV_AD_20aug2025_website.pdf) (Updated July 2025)
+[CV]({{< relURL "homepage/CV_AD_20aug2025_website.pdf" >}}) (Updated August 2025)
 
 <div id="contact">
 
